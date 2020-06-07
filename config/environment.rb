@@ -1,4 +1,5 @@
 require 'bundler/setup'
+require 'em/pure_ruby'
 Bundler.require
 
 ENV['SINATRA_ENV'] ||= "development"

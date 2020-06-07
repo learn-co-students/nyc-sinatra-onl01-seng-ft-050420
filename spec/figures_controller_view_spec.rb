@@ -90,7 +90,7 @@ describe FiguresController do
     visit '/figures'
 
     expect(page.status_code).to eq(200)
-
+    puts page.body
     expect(page.body).to include("Beyonce")
     expect(page.body).to include('Kanye')
   end
